@@ -1,7 +1,11 @@
 var board = 
-    [[1],
-    [5, 4, 3, 2],
+    [[5, 4, 3 , 2, 1],
+    [],
     []];
+
+console.log('Welcome to the Towers of Hanoi!');
+console.log('Move disks by calling the following function in the console with integers 1-3: moveDisk(fromPeg, toPeg)');
+console.log('When you have moved all the disks to a new peg... You win!');
 
 var printBoard = function() {
   var curBoard = board.map( function(peg) {
