@@ -26,7 +26,7 @@ var printBoard = function() {
 
 var checkWinner = function() {
   if (board[1].join() == [5, 4, 3, 2, 1].join()
-     || board[2].join() == [5, 4, 3, 2, 1].join) {
+     || board[2].join() == [5, 4, 3, 2, 1].join()) {
     console.log('You\'re a winner!! Congratulations on solving the game.');
     board =
       [[5, 4, 3, 2, 1],
